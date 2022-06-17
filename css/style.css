@@ -6,10 +6,6 @@ header {
     margin: auto;
 }
 
-header > * {
-    flex: 1;
-}
-
 main {
     display: flex;
     flex-direction: column;
@@ -28,25 +24,23 @@ footer {
     margin: auto;
 }
 
-footer > #authorInfo {
+#authorInfo {
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
 }
 
-#authorInfo > div {
+#bio {
     display: flex;
     align-items: center;
     justify-content: left;
+    width: 70%;
+    gap: 20px;
 }
 
-#authorInfo > div > div > * {
+#bio > div > * {
     margin: 0px;
     padding: 0px;
-}
-
-#authorInfo > * {
-    flex: 1;
 }
 
 #end {
