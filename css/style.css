@@ -1,0 +1,90 @@
+
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 900px;
+    margin: auto;
+}
+
+header > * {
+    flex: 1;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+    margin: auto;
+}
+
+main > hr{
+    width: 100%;
+    height: 10px;
+    background-image: url('../assets/hr-img.png');
+}
+
+footer {
+    width: 900px;
+    margin: auto;
+}
+
+footer > #authorInfo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#authorInfo > * {
+    flex: 1;
+}
+
+#end {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#end * {
+    flex: 1;
+    margin: auto;
+    text-align: center;
+}
+
+
+
+ul {
+    list-style-type: none;
+}
+
+header > ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+}
+
+header #blogtitle {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+#recipetitle {
+    display: flex;
+    justify-content: space-between;
+}
+
+#recipetitle > div{
+    display: flex;
+    align-items: center;
+}
+
+#ingredients {
+    display: flex;
+    justify-content: space-evenly;
+    background-image: url('../assets/list-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 15px;
+}
+
