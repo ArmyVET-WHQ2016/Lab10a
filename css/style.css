@@ -40,6 +40,11 @@ footer > #authorInfo {
     justify-content: left;
 }
 
+#authorInfo > div > div > * {
+    margin: 0px;
+    padding: 0px;
+}
+
 #authorInfo > * {
     flex: 1;
 }
@@ -87,7 +92,6 @@ header > ul > li {
 #blogtitle > * > *{
     margin: 0px;
     padding: 0px;
-    border: solid red 2px;
 }
 
 #blogtitle h1 {
